@@ -1,0 +1,1152 @@
+Using username "smirnovdenis".
+smirnovdenis@192.168.0.11's password:
+Access denied
+smirnovdenis@192.168.0.11's password:
+Welcome to Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-56-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+65 updates can be applied immediately.
+To see these additional updates run: apt list --upgradable
+
+Last login: Sat Jul  6 11:07:10 2024 from 192.168.0.21
+smirnovdenis@smirnovdenis-virtual-machine:~$ ll
+total 224
+drwxr-x--- 24 smirnovdenis smirnovdenis  4096 июл  6 15:40 ./
+drwxr-xr-x  5 root         root          4096 окт  6  2022 ../
+drwxr-xr-x  3 smirnovdenis smirnovdenis  4096 июл  4 21:56 .anydesk/
+-rw-rw-r--  1 smirnovdenis smirnovdenis   107 сен 15  2022 .apport-ignore.xml
+-rw-------  1 smirnovdenis smirnovdenis 32283 июл  6 10:56 .bash_history
+-rw-r--r--  1 smirnovdenis smirnovdenis   220 сен 15  2022 .bash_logout
+-rw-r--r--  1 smirnovdenis smirnovdenis  3806 июл  4 22:22 .bashrc
+drwx------ 16 smirnovdenis smirnovdenis  4096 июл  6 11:05 .cache/
+drwx------ 18 smirnovdenis smirnovdenis  4096 июл  6 10:57 .config/
+drwxr-xr-x  4 smirnovdenis smirnovdenis  4096 июл  6 10:56 Desktop/
+drwxrwxr-x  4 smirnovdenis smirnovdenis  4096 сен 15  2022 devops/
+drwxrwxr-x  2 smirnovdenis smirnovdenis  4096 июл  4 22:11 DIR2/
+drwxr-xr-x  6 smirnovdenis smirnovdenis  4096 июл  5 00:07 .docker/
+drwxr-xr-x  3 smirnovdenis smirnovdenis  4096 окт  4  2022 Documents/
+drwxr-xr-x  3 smirnovdenis smirnovdenis  4096 янв  6  2023 Downloads/
+-rw-rw-r--  1 smirnovdenis smirnovdenis    57 дек  4  2022 .gitconfig
+drwx------  2 smirnovdenis smirnovdenis  4096 дек 23  2022 .gnupg/
+-rw-------  1 smirnovdenis smirnovdenis    20 июл  6 11:24 .lesshst
+drwx------  5 smirnovdenis smirnovdenis  4096 окт 15  2022 .local/
+-rw-rw-r--  1 smirnovdenis smirnovdenis 53437 окт 30  2022 logfile
+drwxr-xr-x  2 smirnovdenis smirnovdenis  4096 сен 15  2022 Music/
+drwxrwxr-x  7 smirnovdenis smirnovdenis  4096 июл  6 15:40 newMock/
+drwxr-xr-x  2 smirnovdenis smirnovdenis  4096 сен 15  2022 Pictures/
+drwx------  3 smirnovdenis smirnovdenis  4096 сен 15  2022 .pki/
+-rw-r--r--  1 smirnovdenis smirnovdenis   807 сен 15  2022 .profile
+drwxrwxr-x  6 smirnovdenis smirnovdenis  4096 дек  4  2022 Programs/
+drwxr-xr-x  2 smirnovdenis smirnovdenis  4096 сен 15  2022 Public/
+drwx------  5 smirnovdenis smirnovdenis  4096 сен 26  2022 snap/
+drwx------  2 smirnovdenis smirnovdenis  4096 сен 15  2022 .ssh/
+-rw-r--r--  1 smirnovdenis smirnovdenis     0 сен 15  2022 .sudo_as_admin_succes                                                                                             sful
+drwxr-xr-x  2 smirnovdenis smirnovdenis  4096 сен 15  2022 Templates/
+drwxrwxr-x  2 smirnovdenis smirnovdenis  4096 янв  6  2023 test/
+drwxr-xr-x  3 smirnovdenis smirnovdenis  4096 сен 26  2022 Videos/
+-rw-------  1 smirnovdenis smirnovdenis 10402 июл  6 10:56 .viminfo
+smirnovdenis@smirnovdenis-virtual-machine:~$ cd newMock/
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock$ ll
+total 60
+drwxrwxr-x  7 smirnovdenis smirnovdenis  4096 июл  6 15:40 ./
+drwxr-x--- 24 smirnovdenis smirnovdenis  4096 июл  6 15:40 ../
+drwxrwxr-x  6 smirnovdenis smirnovdenis  4096 июл  6 15:40 .git/
+-rw-rw-r--  1 smirnovdenis smirnovdenis   395 июл  6 11:42 .gitignore
+-rw-rw-r--  1 smirnovdenis smirnovdenis  1294 июл  6 11:42 HELP.md
+drwxrwxr-x  2 smirnovdenis smirnovdenis  4096 июл  6 15:40 .idea/
+drwxrwxr-x  3 smirnovdenis smirnovdenis  4096 июл  6 15:40 .mvn/
+-rw-rw-r--  1 smirnovdenis smirnovdenis 10666 июл  6 11:42 mvnw
+-rw-rw-r--  1 smirnovdenis smirnovdenis  6913 июл  6 11:42 mvnw.cmd
+-rw-rw-r--  1 smirnovdenis smirnovdenis  1721 июл  6 11:44 pom.xml
+drwxrwxr-x  4 smirnovdenis smirnovdenis  4096 июл  6 15:40 src/
+drwxrwxr-x  9 smirnovdenis smirnovdenis  4096 июл  6 15:40 target/
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock$ cd target
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$ java -jar newMock-0.0.1-SNAPSHOT.jar
+Command 'java' not found, but can be installed with:
+sudo apt install default-jre              # version 2:1.11-72build2, or
+sudo apt install openjdk-11-jre-headless  # version 11.0.20.1+1-0ubuntu1~22.04
+sudo apt install openjdk-17-jre-headless  # version 17.0.8.1+1~us1-0ubuntu1~22.04
+sudo apt install openjdk-18-jre-headless  # version 18.0.2+9-2~22.04
+sudo apt install openjdk-19-jre-headless  # version 19.0.2+7-0ubuntu3~22.04
+sudo apt install openjdk-8-jre-headless   # version 8u382-ga-1~22.04.1
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$ -jre-headless
+-jre-headless: command not found
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$ sudo apt install openjdk-17-jre-headless
+[sudo] password for smirnovdenis:
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  libflashrom1 libftdi1-2 libgtkglext1
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  ca-certificates-java java-common
+Suggested packages:
+  default-jre fonts-dejavu-extra fonts-ipafont-gothic fonts-ipafont-mincho fonts-wqy-microhei | fonts-wqy-zenhei
+The following NEW packages will be installed:
+  ca-certificates-java java-common openjdk-17-jre-headless
+0 upgraded, 3 newly installed, 0 to remove and 565 not upgraded.
+Need to get 48,2 MB of archives.
+After this operation, 193 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://ru.archive.ubuntu.com/ubuntu jammy/main amd64 java-common all 0.72build2 [6 782 B]
+Get:2 http://ru.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 openjdk-17-jre-headless amd64 17.0.11+9-1~22.04.1 [48,2 MB]
+Get:3 http://ru.archive.ubuntu.com/ubuntu jammy-updates/main amd64 ca-certificates-java all 20190909ubuntu1.2 [12,1 kB]
+Fetched 48,2 MB in 4s (11,0 MB/s)
+Selecting previously unselected package java-common.
+(Reading database ... 241345 files and directories currently installed.)
+Preparing to unpack .../java-common_0.72build2_all.deb ...
+Unpacking java-common (0.72build2) ...
+Selecting previously unselected package openjdk-17-jre-headless:amd64.
+Preparing to unpack .../openjdk-17-jre-headless_17.0.11+9-1~22.04.1_amd64.deb ...
+Unpacking openjdk-17-jre-headless:amd64 (17.0.11+9-1~22.04.1) ...
+Selecting previously unselected package ca-certificates-java.
+Preparing to unpack .../ca-certificates-java_20190909ubuntu1.2_all.deb ...
+Unpacking ca-certificates-java (20190909ubuntu1.2) ...
+Setting up java-common (0.72build2) ...
+Setting up openjdk-17-jre-headless:amd64 (17.0.11+9-1~22.04.1) ...
+update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/java to provide /usr/bin/java (java) in auto mode
+update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/jpackage to provide /usr/bin/jpackage (jpackage) in auto mode
+update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/keytool to provide /usr/bin/keytool (keytool) in auto mode
+update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/rmiregistry to provide /usr/bin/rmiregistry (rmiregistry) in auto mode
+update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/lib/jexec to provide /usr/bin/jexec (jexec) in auto mode
+Setting up ca-certificates-java (20190909ubuntu1.2) ...
+head: cannot open '/etc/ssl/certs/java/cacerts' for reading: No such file or directory
+Adding debian:Certigna.pem
+Adding debian:T-TeleSec_GlobalRoot_Class_3.pem
+Adding debian:AffirmTrust_Premium.pem
+Adding debian:Baltimore_CyberTrust_Root.pem
+Adding debian:Entrust_Root_Certification_Authority_-_G4.pem
+Adding debian:Staat_der_Nederlanden_EV_Root_CA.pem
+Adding debian:Trustwave_Global_ECC_P256_Certification_Authority.pem
+Adding debian:T-TeleSec_GlobalRoot_Class_2.pem
+Adding debian:SecureSign_RootCA11.pem
+Adding debian:SSL.com_EV_Root_Certification_Authority_RSA_R2.pem
+Adding debian:Buypass_Class_2_Root_CA.pem
+Adding debian:Entrust.net_Premium_2048_Secure_Server_CA.pem
+Adding debian:GTS_Root_R2.pem
+Adding debian:Entrust_Root_Certification_Authority.pem
+Adding debian:NetLock_Arany_=Class_Gold=_Főtanúsítvány.pem
+Adding debian:GTS_Root_R3.pem
+Adding debian:Network_Solutions_Certificate_Authority.pem
+Adding debian:Hellenic_Academic_and_Research_Institutions_RootCA_2011.pem
+Adding debian:OISTE_WISeKey_Global_Root_GB_CA.pem
+Adding debian:COMODO_ECC_Certification_Authority.pem
+Adding debian:Certigna_Root_CA.pem
+Adding debian:UCA_Extended_Validation_Root.pem
+Adding debian:GlobalSign_Root_CA_-_R2.pem
+Adding debian:IdenTrust_Public_Sector_Root_CA_1.pem
+Adding debian:certSIGN_ROOT_CA.pem
+Adding debian:QuoVadis_Root_CA_2.pem
+Adding debian:QuoVadis_Root_CA_3_G3.pem
+Adding debian:GlobalSign_ECC_Root_CA_-_R5.pem
+Adding debian:emSign_Root_CA_-_G1.pem
+Adding debian:TeliaSonera_Root_CA_v1.pem
+Adding debian:E-Tugra_Certification_Authority.pem
+Adding debian:CA_Disig_Root_R2.pem
+Adding debian:Cybertrust_Global_Root.pem
+Adding debian:Certum_Trusted_Root_CA.pem
+Adding debian:Buypass_Class_3_Root_CA.pem
+Adding debian:AffirmTrust_Commercial.pem
+Adding debian:SSL.com_Root_Certification_Authority_ECC.pem
+Adding debian:ePKI_Root_Certification_Authority.pem
+Adding debian:Hellenic_Academic_and_Research_Institutions_RootCA_2015.pem
+Adding debian:SwissSign_Gold_CA_-_G2.pem
+Adding debian:Amazon_Root_CA_3.pem
+Adding debian:Certum_Trusted_Network_CA.pem
+Adding debian:emSign_ECC_Root_CA_-_G3.pem
+Adding debian:Hongkong_Post_Root_CA_1.pem
+Adding debian:ISRG_Root_X1.pem
+Adding debian:TUBITAK_Kamu_SM_SSL_Kok_Sertifikasi_-_Surum_1.pem
+Adding debian:Starfield_Services_Root_Certificate_Authority_-_G2.pem
+Adding debian:DigiCert_Assured_ID_Root_G2.pem
+Adding debian:Go_Daddy_Root_Certificate_Authority_-_G2.pem
+Adding debian:Certum_EC-384_CA.pem
+Adding debian:SecureTrust_CA.pem
+Adding debian:IdenTrust_Commercial_Root_CA_1.pem
+Adding debian:GlobalSign_Root_CA.pem
+Adding debian:EC-ACC.pem
+Adding debian:AffirmTrust_Networking.pem
+Adding debian:Certum_Trusted_Network_CA_2.pem
+Adding debian:GlobalSign_Root_E46.pem
+Adding debian:emSign_Root_CA_-_C1.pem
+Adding debian:GlobalSign_Root_CA_-_R6.pem
+Adding debian:GlobalSign_ECC_Root_CA_-_R4.pem
+Adding debian:NAVER_Global_Root_Certification_Authority.pem
+Adding debian:GTS_Root_R1.pem
+Adding debian:Atos_TrustedRoot_2011.pem
+Adding debian:Entrust_Root_Certification_Authority_-_EC1.pem
+Adding debian:XRamp_Global_CA_Root.pem
+Adding debian:Hongkong_Post_Root_CA_3.pem
+Adding debian:Secure_Global_CA.pem
+Adding debian:AC_RAIZ_FNMT-RCM.pem
+Adding debian:ssl-cert-snakeoil.pem
+Adding debian:DigiCert_Assured_ID_Root_CA.pem
+Adding debian:CFCA_EV_ROOT.pem
+Adding debian:Trustwave_Global_Certification_Authority.pem
+Adding debian:DigiCert_Assured_ID_Root_G3.pem
+Adding debian:GlobalSign_Root_CA_-_R3.pem
+Adding debian:DigiCert_Global_Root_G2.pem
+Adding debian:Go_Daddy_Class_2_CA.pem
+Adding debian:AC_RAIZ_FNMT-RCM_SERVIDORES_SEGUROS.pem
+Adding debian:USERTrust_ECC_Certification_Authority.pem
+Adding debian:Comodo_AAA_Services_root.pem
+Adding debian:Hellenic_Academic_and_Research_Institutions_ECC_RootCA_2015.pem
+Adding debian:Amazon_Root_CA_2.pem
+Adding debian:Microsoft_ECC_Root_Certificate_Authority_2017.pem
+Adding debian:Starfield_Class_2_CA.pem
+Adding debian:DigiCert_High_Assurance_EV_Root_CA.pem
+Adding debian:e-Szigno_Root_CA_2017.pem
+Adding debian:GlobalSign_Root_R46.pem
+Adding debian:GDCA_TrustAUTH_R5_ROOT.pem
+Adding debian:Amazon_Root_CA_1.pem
+Adding debian:Microsoft_RSA_Root_Certificate_Authority_2017.pem
+Adding debian:Trustwave_Global_ECC_P384_Certification_Authority.pem
+Adding debian:Security_Communication_Root_CA.pem
+Adding debian:SSL.com_EV_Root_Certification_Authority_ECC.pem
+Adding debian:Security_Communication_RootCA2.pem
+Adding debian:UCA_Global_G2_Root.pem
+Adding debian:SSL.com_Root_Certification_Authority_RSA.pem
+Adding debian:DigiCert_Global_Root_G3.pem
+Adding debian:QuoVadis_Root_CA_1_G3.pem
+Adding debian:COMODO_Certification_Authority.pem
+Adding debian:GTS_Root_R4.pem
+Adding debian:Entrust_Root_Certification_Authority_-_G2.pem
+Adding debian:SwissSign_Silver_CA_-_G2.pem
+Adding debian:TWCA_Global_Root_CA.pem
+Adding debian:COMODO_RSA_Certification_Authority.pem
+Adding debian:QuoVadis_Root_CA_2_G3.pem
+Adding debian:DigiCert_Global_Root_CA.pem
+Adding debian:Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.pem
+Adding debian:Starfield_Root_Certificate_Authority_-_G2.pem
+Adding debian:SZAFIR_ROOT_CA2.pem
+Adding debian:QuoVadis_Root_CA_3.pem
+Adding debian:DigiCert_Trusted_Root_G4.pem
+Adding debian:USERTrust_RSA_Certification_Authority.pem
+Adding debian:TWCA_Root_Certification_Authority.pem
+Adding debian:Amazon_Root_CA_4.pem
+Adding debian:AffirmTrust_Premium_ECC.pem
+Adding debian:ACCVRAIZ1.pem
+Adding debian:OISTE_WISeKey_Global_Root_GC_CA.pem
+Adding debian:Microsec_e-Szigno_Root_CA_2009.pem
+Adding debian:ANF_Secure_Server_Root_CA.pem
+Adding debian:Actalis_Authentication_Root_CA.pem
+Adding debian:emSign_ECC_Root_CA_-_C3.pem
+Adding debian:D-TRUST_Root_Class_3_CA_2_2009.pem
+Adding debian:certSIGN_Root_CA_G2.pem
+Adding debian:Izenpe.com.pem
+Adding debian:GLOBALTRUST_2020.pem
+Adding debian:D-TRUST_Root_Class_3_CA_2_EV_2009.pem
+done.
+Processing triggers for man-db (2.10.2-1) ...
+Processing triggers for ca-certificates (20211016ubuntu0.22.04.1) ...
+Updating certificates in /etc/ssl/certs...
+0 added, 0 removed; done.
+Running hooks in /etc/ca-certificates/update.d...
+
+done.
+done.
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$ java -jar newMock-0.0.1-SNAPSHOT.jar
+Exception in thread "main" java.lang.UnsupportedClassVersionError: com/example/newMock/NewMockApplication has been compiled by a more recent version of the Java Runtime (claognizes class file versions up to 61.0
+        at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+        at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1017)
+        at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+        at java.base/java.net.URLClassLoader.defineClass(URLClassLoader.java:524)
+        at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:427)
+        at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:421)
+        at java.base/java.security.AccessController.doPrivileged(AccessController.java:712)
+        at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:420)
+        at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:592)
+        at org.springframework.boot.loader.net.protocol.jar.JarUrlClassLoader.loadClass(JarUrlClassLoader.java:103)
+        at org.springframework.boot.loader.launch.LaunchedClassLoader.loadClass(LaunchedClassLoader.java:91)
+        at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+        at java.base/java.lang.Class.forName0(Native Method)
+        at java.base/java.lang.Class.forName(Class.java:467)
+        at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:88)
+        at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:53)
+        at org.springframework.boot.loader.launch.JarLauncher.main(JarLauncher.java:58)
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$ java -jar newMock-0.0.1-SNAPSHOT.jar
+Exception in thread "main" java.lang.UnsupportedClassVersionError: com/example/newMock/NewMockApplication has been compiled by a more recent version of the Java Runtime (claognizes class file versions up to 61.0
+        at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+        at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1017)
+        at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+        at java.base/java.net.URLClassLoader.defineClass(URLClassLoader.java:524)
+        at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:427)
+        at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:421)
+        at java.base/java.security.AccessController.doPrivileged(AccessController.java:712)
+        at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:420)
+        at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:592)
+        at org.springframework.boot.loader.net.protocol.jar.JarUrlClassLoader.loadClass(JarUrlClassLoader.java:103)
+        at org.springframework.boot.loader.launch.LaunchedClassLoader.loadClass(LaunchedClassLoader.java:91)
+        at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+        at java.base/java.lang.Class.forName0(Native Method)
+        at java.base/java.lang.Class.forName(Class.java:467)
+        at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:88)
+        at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:53)
+        at org.springframework.boot.loader.launch.JarLauncher.main(JarLauncher.java:58)
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$ cd ..
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock$ cat pom.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+        <modelVersion>4.0.0</modelVersion>
+        <parent>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-parent</artifactId>
+                <version>3.3.1</version>
+                <relativePath/> <!-- lookup parent from repository -->
+        </parent>
+        <groupId>com.example</groupId>
+        <artifactId>newMock</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+        <name>newMock</name>
+        <description>Demo project for Spring Boot</description>
+        <url/>
+        <licenses>
+                <license/>
+        </licenses>
+        <developers>
+                <developer/>
+        </developers>
+        <scm>
+                <connection/>
+                <developerConnection/>
+                <tag/>
+                <url/>
+        </scm>
+        <properties>
+                <java.version>17</java.version>
+        </properties>
+        <dependencies>
+                <dependency>
+                        <groupId>org.springframework.boot</groupId>
+                        <artifactId>spring-boot-starter-web</artifactId>
+                </dependency>
+
+                <dependency>
+                        <groupId>org.projectlombok</groupId>
+                        <artifactId>lombok</artifactId>
+                        <optional>true</optional>
+                </dependency>
+                <dependency>
+                        <groupId>org.springframework.boot</groupId>
+                        <artifactId>spring-boot-starter-test</artifactId>
+                        <scope>test</scope>
+                </dependency>
+        </dependencies>
+
+        <build>
+                <plugins>
+                        <plugin>
+                                <groupId>org.springframework.boot</groupId>
+                                <artifactId>spring-boot-maven-plugin</artifactId>
+                                <configuration>
+                                        <excludes>
+                                                <exclude>
+                                                        <groupId>org.projectlombok</groupId>
+                                                        <artifactId>lombok</artifactId>
+                                                </exclude>
+                                        </excludes>
+                                </configuration>
+                        </plugin>
+                </plugins>
+        </build>
+
+</project>
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock$ cd target/
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$ java -jar newMock-0.0.1-SNAPSHOT.jar
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.1)
+
+2024-07-06T15:50:50.288+03:00  INFO 14524 --- [newMock] [           main] com.example.newMock.NewMockApplication   : Starting NewMockApplication v0.0.1-SNAPSHOT using Java 1-0.0.1-SNAPSHOT.jar started by smirnovdenis in /home/smirnovdenis/newMock/target)
+2024-07-06T15:50:50.294+03:00  INFO 14524 --- [newMock] [           main] com.example.newMock.NewMockApplication   : No active profile set, falling back to 1 default profile
+2024-07-06T15:50:52.314+03:00  INFO 14524 --- [newMock] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-06T15:50:52.331+03:00  INFO 14524 --- [newMock] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-06T15:50:52.331+03:00  INFO 14524 --- [newMock] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-06T15:50:52.389+03:00  INFO 14524 --- [newMock] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-06T15:50:52.391+03:00  INFO 14524 --- [newMock] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in
+2024-07-06T15:50:52.823+03:00  WARN 14524 --- [newMock] [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - canContextException: Failed to start bean 'webServerStartStop'
+2024-07-06T15:50:52.840+03:00  INFO 14524 --- [newMock] [           main] .s.b.a.l.ConditionEvaluationReportLogger :
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-07-06T15:50:52.859+03:00 ERROR 14524 --- [newMock] [           main] o.s.b.d.LoggingFailureAnalysisReporter   :
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$ ^[[200~fuser 80/tcp~^C
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$ fuser 80/tcp
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$ java -jar newMock-0.0.1-SNAPSHOT.jar
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.1)
+
+2024-07-06T15:52:46.016+03:00  INFO 16067 --- [newMock] [           main] com.example.newMock.NewMockApplication   : Starting NewMockApplication v0.0.1-SNAPSHOT using Java 1-0.0.1-SNAPSHOT.jar started by smirnovdenis in /home/smirnovdenis/newMock/target)
+2024-07-06T15:52:46.020+03:00  INFO 16067 --- [newMock] [           main] com.example.newMock.NewMockApplication   : No active profile set, falling back to 1 default profile
+2024-07-06T15:52:47.301+03:00  INFO 16067 --- [newMock] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2024-07-06T15:52:47.316+03:00  INFO 16067 --- [newMock] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-06T15:52:47.316+03:00  INFO 16067 --- [newMock] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-06T15:52:47.364+03:00  INFO 16067 --- [newMock] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-06T15:52:47.366+03:00  INFO 16067 --- [newMock] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in
+2024-07-06T15:52:47.800+03:00  INFO 16067 --- [newMock] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8082 (http) with context path '/'
+2024-07-06T15:52:47.820+03:00  INFO 16067 --- [newMock] [           main] com.example.newMock.NewMockApplication   : Started NewMockApplication in 2.411 seconds (process run
+2024-07-06T15:54:26.528+03:00  INFO 16067 --- [newMock] [nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet
+2024-07-06T15:54:26.529+03:00  INFO 16067 --- [newMock] [nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-06T15:54:26.530+03:00  INFO 16067 --- [newMock] [nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-07-06T15:54:26.658+03:00 ERROR 16067 --- [newMock] [nio-8082-exec-1] c.e.newMock.Controller.MainController    : *********** RequestDTO *********** {
+  "rqUID" : "58dgtf565j8547f64ke7",
+  "clientId" : "8050000000000000000",
+  "account" : "30500000000000000001",
+  "openDate" : "2020-01-01",
+  "closeDate" : "2025-01-01"
+}
+2024-07-06T15:54:26.673+03:00 ERROR 16067 --- [newMock] [nio-8082-exec-1] c.e.newMock.Controller.MainController    : *********** ResponseDTO *********** {
+  "rqUID" : "58dgtf565j8547f64ke7",
+  "clientId" : "8050000000000000000",
+  "account" : "30500000000000000001",
+  "currency" : "US",
+  "balance" : 1031.00,
+  "maxLimit" : 2000.00
+}
+2024-07-06T16:00:15.753+03:00 ERROR 16067 --- [newMock] [nio-8082-exec-3] c.e.newMock.Controller.MainController    : *********** RequestDTO *********** {
+  "rqUID" : "58dgtf565j8547f64ke7",
+  "clientId" : "8050000000000000000",
+  "account" : "30500000000000000001",
+  "openDate" : "2020-01-01",
+  "closeDate" : "2025-01-01"
+}
+2024-07-06T16:00:15.754+03:00 ERROR 16067 --- [newMock] [nio-8082-exec-3] c.e.newMock.Controller.MainController    : *********** ResponseDTO *********** {
+  "rqUID" : "58dgtf565j8547f64ke7",
+  "clientId" : "8050000000000000000",
+  "account" : "30500000000000000001",
+  "currency" : "US",
+  "balance" : 1259.00,
+  "maxLimit" : 2000.00
+}
+2024-07-06T16:00:16.786+03:00 ERROR 16067 --- [newMock] [nio-8082-exec-5] c.e.newMock.Controller.MainController    : *********** RequestDTO *********** {
+  "rqUID" : "58dgtf565j8547f64ke7",
+  "clientId" : "8050000000000000000",
+  "account" : "30500000000000000001",
+  "openDate" : "2020-01-01",
+  "closeDate" : "2025-01-01"
+}
+2024-07-06T16:00:16.786+03:00 ERROR 16067 --- [newMock] [nio-8082-exec-5] c.e.newMock.Controller.MainController    : *********** ResponseDTO *********** {
+  "rqUID" : "58dgtf565j8547f64ke7",
+  "clientId" : "8050000000000000000",
+  "account" : "30500000000000000001",
+  "currency" : "US",
+  "balance" : 357.00,
+  "maxLimit" : 2000.00
+}
+2024-07-06T16:00:19.005+03:00 ERROR 16067 --- [newMock] [nio-8082-exec-4] c.e.newMock.Controller.MainController    : *********** RequestDTO *********** {
+  "rqUID" : "58dgtf565j8547f64ke7",
+  "clientId" : "8050000000000000000",
+  "account" : "30500000000000000001",
+  "openDate" : "2020-01-01",
+  "closeDate" : "2025-01-01"
+}
+2024-07-06T16:00:19.006+03:00 ERROR 16067 --- [newMock] [nio-8082-exec-4] c.e.newMock.Controller.MainController    : *********** ResponseDTO *********** {
+  "rqUID" : "58dgtf565j8547f64ke7",
+  "clientId" : "8050000000000000000",
+  "account" : "30500000000000000001",
+  "currency" : "US",
+  "balance" : 452.00,
+  "maxLimit" : 2000.00
+}
+2024-07-06T16:00:23.524+03:00 ERROR 16067 --- [newMock] [nio-8082-exec-7] c.e.newMock.Controller.MainController    : *********** RequestDTO *********** {
+  "rqUID" : "58dgtf565j8547f64ke7",
+  "clientId" : "3050000000000000000",
+  "account" : "30500000000000000001",
+  "openDate" : "2020-01-01",
+  "closeDate" : "2025-01-01"
+}
+2024-07-06T16:00:23.524+03:00 ERROR 16067 --- [newMock] [nio-8082-exec-7] c.e.newMock.Controller.MainController    : *********** ResponseDTO *********** {
+  "rqUID" : "58dgtf565j8547f64ke7",
+  "clientId" : "3050000000000000000",
+  "account" : "30500000000000000001",
+  "currency" : "RUB",
+  "balance" : 7743.00,
+  "maxLimit" : 10000.00
+}
+2024-07-06T16:00:24.486+03:00 ERROR 16067 --- [newMock] [nio-8082-exec-9] c.e.newMock.Controller.MainController    : *********** RequestDTO *********** {
+  "rqUID" : "58dgtf565j8547f64ke7",
+  "clientId" : "3050000000000000000",
+  "account" : "30500000000000000001",
+  "openDate" : "2020-01-01",
+  "closeDate" : "2025-01-01"
+}
+2024-07-06T16:00:24.486+03:00 ERROR 16067 --- [newMock] [nio-8082-exec-9] c.e.newMock.Controller.MainController    : *********** ResponseDTO *********** {
+  "rqUID" : "58dgtf565j8547f64ke7",
+  "clientId" : "3050000000000000000",
+  "account" : "30500000000000000001",
+  "currency" : "RUB",
+  "balance" : 1369.00,
+  "maxLimit" : 10000.00
+}
+^Csmirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$ java -Dserver.port=8888 -jar newMock-0.0.1-SNAPSHOT.jar
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.1)
+
+2024-07-06T16:02:52.154+03:00  INFO 16153 --- [newMock] [           main] com.example.newMock.NewMockApplication   : Starting NewMockApplication v0.0.1-SNAPSHOT using Java 1-0.0.1-SNAPSHOT.jar started by smirnovdenis in /home/smirnovdenis/newMock/target)
+2024-07-06T16:02:52.157+03:00  INFO 16153 --- [newMock] [           main] com.example.newMock.NewMockApplication   : No active profile set, falling back to 1 default profile
+2024-07-06T16:02:53.486+03:00  INFO 16153 --- [newMock] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8888 (http)
+2024-07-06T16:02:53.503+03:00  INFO 16153 --- [newMock] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-06T16:02:53.504+03:00  INFO 16153 --- [newMock] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-06T16:02:53.552+03:00  INFO 16153 --- [newMock] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-06T16:02:53.555+03:00  INFO 16153 --- [newMock] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in
+2024-07-06T16:02:53.993+03:00  INFO 16153 --- [newMock] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8888 (http) with context path '/'
+2024-07-06T16:02:54.010+03:00  INFO 16153 --- [newMock] [           main] com.example.newMock.NewMockApplication   : Started NewMockApplication in 2.446 seconds (process run
+2024-07-06T16:03:08.265+03:00  INFO 16153 --- [newMock] [nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet
+2024-07-06T16:03:08.266+03:00  INFO 16153 --- [newMock] [nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-06T16:03:08.267+03:00  INFO 16153 --- [newMock] [nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-07-06T16:03:08.407+03:00 ERROR 16153 --- [newMock] [nio-8888-exec-1] c.e.newMock.Controller.MainController    : *********** RequestDTO *********** {
+  "rqUID" : "58dgtf565j8547f64ke7",
+  "clientId" : "3050000000000000000",
+  "account" : "30500000000000000001",
+  "openDate" : "2020-01-01",
+  "closeDate" : "2025-01-01"
+}
+2024-07-06T16:03:08.424+03:00 ERROR 16153 --- [newMock] [nio-8888-exec-1] c.e.newMock.Controller.MainController    : *********** ResponseDTO *********** {
+  "rqUID" : "58dgtf565j8547f64ke7",
+  "clientId" : "3050000000000000000",
+  "account" : "30500000000000000001",
+  "currency" : "RUB",
+  "balance" : 3930.00,
+  "maxLimit" : 10000.00
+}
+^Csmirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$ nohup java -jar newMock-0.0.1-SNAPSHOT.jar &
+[1] 16205
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$ nohup: ignoring input and appending output to 'nohup.out'
+top
+top - 16:09:47 up 31 min,  2 users,  load average: 0,20, 0,21, 0,48
+Tasks: 338 total,   1 running, 337 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0,1 us,  0,4 sy,  0,0 ni, 99,5 id,  0,0 wa,  0,0 hi,  0,0 si,  0,0 st
+MiB Mem :   7915,8 total,   4396,8 free,   1683,6 used,   1835,4 buff/cache
+MiB Swap:   1024,0 total,   1024,0 free,      0,0 used.   5910,9 avail Mem
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  16247 smirnov+  20   0   22020   4128   3276 R   1,0   0,1   0:01.36 top
+   2204 root      20   0  748984  38764  30996 S   0,7   0,5   0:05.25 gitlab-runner
+  16205 smirnov+  20   0 5761280 191332  23544 S   0,7   2,4   0:10.72 java
+     14 root      20   0       0      0      0 I   0,3   0,0   0:02.21 rcu_sched
+    872 systemd+  20   0   14844   6076   5272 S   0,3   0,1   0:02.93 systemd-oomd
+   1131 root      20   0 1422380  48100  33680 S   0,3   0,6   0:07.62 containerd
+  15923 root      20   0 1333128  34312  25812 S   0,3   0,4   0:05.23 containerd
+      1 root      20   0  166772  12112   8280 S   0,0   0,1   0:07.12 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.04 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+      4 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_par_gp
+      5 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 netns
+      7 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/0:0H-events_highpri
+      9 root       0 -20       0      0      0 I   0,0   0,0   0:00.43 kworker/0:1H-kblockd
+     10 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 mm_percpu_wq
+     11 root      20   0       0      0      0 S   0,0   0,0   0:00.00 rcu_tasks_rude_
+     12 root      20   0       0      0      0 S   0,0   0,0   0:00.00 rcu_tasks_trace
+     13 root      20   0       0      0      0 S   0,0   0,0   0:00.54 ksoftirqd/0
+     15 root      rt   0       0      0      0 S   0,0   0,0   0:00.01 migration/0
+     16 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/0
+     17 root      20   0       0      0      0 I   0,0   0,0   0:00.58 kworker/0:1-rcu_par_gp
+     18 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/0
+     19 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/1
+     20 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/1
+     21 root      rt   0       0      0      0 S   0,0   0,0   0:01.17 migration/1
+     22 root      20   0       0      0      0 S   0,0   0,0   0:00.51 ksoftirqd/1
+     24 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/1:0H-events_highpri
+     25 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/2
+     26 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/2
+     27 root      rt   0       0      0      0 S   0,0   0,0   0:01.28 migration/2
+     28 root      20   0       0      0      0 S   0,0   0,0   0:00.47 ksoftirqd/2
+     30 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/2:0H-events_highpri
+     31 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/3
+     32 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/3
+     33 root      rt   0       0      0      0 S   0,0   0,0   0:01.18 migration/3
+     34 root      20   0       0      0      0 S   0,0   0,0   0:00.59 ksoftirqd/3
+     36 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/3:0H-events_highpri
+     37 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kdevtmpfs
+     38 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 inet_frag_wq
+     39 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kauditd
+     41 root      20   0       0      0      0 S   0,0   0,0   0:00.00 khungtaskd
+     42 root      20   0       0      0      0 S   0,0   0,0   0:00.00 oom_reaper
+     43 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 writeback
+     44 root      20   0       0      0      0 S   0,0   0,0   0:00.08 kcompactd0
+     45 root      25   5       0      0      0 S   0,0   0,0   0:00.00 ksmd
+     46 root      39  19       0      0      0 S   0,0   0,0   0:00.00 khugepaged
+     94 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kintegrityd
+     95 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kblockd
+     96 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 blkcg_punt_bio
+     98 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 tpm_dev_wq
+     99 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 ata_sff
+    100 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 md
+    101 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 edac-poller
+    102 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 devfreq_wq
+    103 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 watchdogd
+    105 root       0 -20       0      0      0 I   0,0   0,0   0:00.43 kworker/1:1H-kblockd
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$ ps
+    PID TTY          TIME CMD
+   5665 pts/1    00:00:00 bash
+  16205 pts/1    00:00:10 java
+  16305 pts/1    00:00:00 ps
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$ kill 16205
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$ ps aux
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.3  0.1 166772 12112 ?        Ss   15:38   0:07 /sbin/init auto noprompt splash
+root           2  0.0  0.0      0     0 ?        S    15:38   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   15:38   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   15:38   0:00 [rcu_par_gp]
+root           5  0.0  0.0      0     0 ?        I<   15:38   0:00 [netns]
+root           7  0.0  0.0      0     0 ?        I<   15:38   0:00 [kworker/0:0H-events_highpri]
+root           9  0.0  0.0      0     0 ?        I<   15:38   0:00 [kworker/0:1H-events_highpri]
+root          10  0.0  0.0      0     0 ?        I<   15:38   0:00 [mm_percpu_wq]
+root          11  0.0  0.0      0     0 ?        S    15:38   0:00 [rcu_tasks_rude_]
+root          12  0.0  0.0      0     0 ?        S    15:38   0:00 [rcu_tasks_trace]
+root          13  0.0  0.0      0     0 ?        S    15:38   0:00 [ksoftirqd/0]
+root          14  0.1  0.0      0     0 ?        I    15:38   0:02 [rcu_sched]
+root          15  0.0  0.0      0     0 ?        S    15:38   0:00 [migration/0]
+root          16  0.0  0.0      0     0 ?        S    15:38   0:00 [idle_inject/0]
+root          17  0.0  0.0      0     0 ?        I    15:38   0:00 [kworker/0:1-rcu_par_gp]
+root          18  0.0  0.0      0     0 ?        S    15:38   0:00 [cpuhp/0]
+root          19  0.0  0.0      0     0 ?        S    15:38   0:00 [cpuhp/1]
+root          20  0.0  0.0      0     0 ?        S    15:38   0:00 [idle_inject/1]
+root          21  0.0  0.0      0     0 ?        S    15:38   0:01 [migration/1]
+root          22  0.0  0.0      0     0 ?        S    15:38   0:00 [ksoftirqd/1]
+root          24  0.0  0.0      0     0 ?        I<   15:38   0:00 [kworker/1:0H-events_highpri]
+root          25  0.0  0.0      0     0 ?        S    15:38   0:00 [cpuhp/2]
+root          26  0.0  0.0      0     0 ?        S    15:38   0:00 [idle_inject/2]
+root          27  0.0  0.0      0     0 ?        S    15:38   0:01 [migration/2]
+root          28  0.0  0.0      0     0 ?        S    15:38   0:00 [ksoftirqd/2]
+root          30  0.0  0.0      0     0 ?        I<   15:38   0:00 [kworker/2:0H-events_highpri]
+root          31  0.0  0.0      0     0 ?        S    15:38   0:00 [cpuhp/3]
+root          32  0.0  0.0      0     0 ?        S    15:38   0:00 [idle_inject/3]
+root          33  0.0  0.0      0     0 ?        S    15:38   0:01 [migration/3]
+root          34  0.0  0.0      0     0 ?        S    15:38   0:00 [ksoftirqd/3]
+root          36  0.0  0.0      0     0 ?        I<   15:38   0:00 [kworker/3:0H-events_highpri]
+root          37  0.0  0.0      0     0 ?        S    15:38   0:00 [kdevtmpfs]
+root          38  0.0  0.0      0     0 ?        I<   15:38   0:00 [inet_frag_wq]
+root          39  0.0  0.0      0     0 ?        S    15:38   0:00 [kauditd]
+root          41  0.0  0.0      0     0 ?        S    15:38   0:00 [khungtaskd]
+root          42  0.0  0.0      0     0 ?        S    15:38   0:00 [oom_reaper]
+root          43  0.0  0.0      0     0 ?        I<   15:38   0:00 [writeback]
+root          44  0.0  0.0      0     0 ?        S    15:38   0:00 [kcompactd0]
+root          45  0.0  0.0      0     0 ?        SN   15:38   0:00 [ksmd]
+root          46  0.0  0.0      0     0 ?        SN   15:38   0:00 [khugepaged]
+root          94  0.0  0.0      0     0 ?        I<   15:38   0:00 [kintegrityd]
+root          95  0.0  0.0      0     0 ?        I<   15:38   0:00 [kblockd]
+root          96  0.0  0.0      0     0 ?        I<   15:38   0:00 [blkcg_punt_bio]
+root          98  0.0  0.0      0     0 ?        I<   15:38   0:00 [tpm_dev_wq]
+root          99  0.0  0.0      0     0 ?        I<   15:38   0:00 [ata_sff]
+root         100  0.0  0.0      0     0 ?        I<   15:38   0:00 [md]
+root         101  0.0  0.0      0     0 ?        I<   15:38   0:00 [edac-poller]
+root         102  0.0  0.0      0     0 ?        I<   15:38   0:00 [devfreq_wq]
+root         103  0.0  0.0      0     0 ?        S    15:38   0:00 [watchdogd]
+root         105  0.0  0.0      0     0 ?        I<   15:38   0:00 [kworker/1:1H-kblockd]
+root         107  0.0  0.0      0     0 ?        S    15:38   0:00 [kswapd0]
+root         108  0.0  0.0      0     0 ?        S    15:38   0:00 [ecryptfs-kthrea]
+root         110  0.0  0.0      0     0 ?        I<   15:38   0:00 [kthrotld]
+root         111  0.0  0.0      0     0 ?        S    15:38   0:00 [irq/24-pciehp]
+root         112  0.0  0.0      0     0 ?        S    15:38   0:00 [irq/25-pciehp]
+root         113  0.0  0.0      0     0 ?        S    15:38   0:00 [irq/26-pciehp]
+root         114  0.0  0.0      0     0 ?        S    15:38   0:00 [irq/27-pciehp]
+root         115  0.0  0.0      0     0 ?        S    15:38   0:00 [irq/28-pciehp]
+root         116  0.0  0.0      0     0 ?        S    15:38   0:00 [irq/29-pciehp]
+root         117  0.0  0.0      0     0 ?        S    15:38   0:00 [irq/30-pciehp]
+root         118  0.0  0.0      0     0 ?        S    15:38   0:00 [irq/31-pciehp]
+root         119  0.0  0.0      0     0 ?        S    15:38   0:00 [irq/32-pciehp]
+root         120  0.0  0.0      0     0 ?        S    15:38   0:00 [irq/33-pciehp]
+root         121  0.0  0.0      0     0 ?        S    15:38   0:00 [irq/34-pciehp]
+root         122  0.0  0.0      0     0 ?        S    15:38   0:00 [irq/35-pciehp]
+root         123  0.0  0.0      0     0 ?        S    15:38   0:00 [irq/36-pciehp]
+root         124  0.0  0.0      0     0 ?        S    15:38   0:00 [irq/37-pciehp]
+root         125  0.0  0.0      0     0 ?        S    15:38   0:00 [irq/38-pciehp]
+root         126  0.0  0.0      0     0 ?        S    15:38   0:00 [irq/39-pciehp]
+root         127  0.0  0.0      0     0 ?        S    15:38   0:00 [irq/40-pciehp]
+root         128  0.0  0.0      0     0 ?        S    15:38   0:00 [irq/41-pciehp]
+root         129  0.0  0.0      0     0 ?        S    15:38   0:00 [irq/42-pciehp]
+root         130  0.0  0.0      0     0 ?        S    15:38   0:00 [irq/43-pciehp]
+root         131  0.0  0.0      0     0 ?        S    15:38   0:00 [irq/44-pciehp]
+root         132  0.0  0.0      0     0 ?        S    15:38   0:00 [irq/45-pciehp]
+root         133  0.0  0.0      0     0 ?        S    15:38   0:00 [irq/46-pciehp]
+root         134  0.0  0.0      0     0 ?        S    15:38   0:00 [irq/47-pciehp]
+root         135  0.0  0.0      0     0 ?        S    15:38   0:00 [irq/48-pciehp]
+root         136  0.0  0.0      0     0 ?        S    15:38   0:00 [irq/49-pciehp]
+root         137  0.0  0.0      0     0 ?        S    15:38   0:00 [irq/50-pciehp]
+root         138  0.0  0.0      0     0 ?        S    15:38   0:00 [irq/51-pciehp]
+root         139  0.0  0.0      0     0 ?        S    15:38   0:00 [irq/52-pciehp]
+root         140  0.0  0.0      0     0 ?        S    15:38   0:00 [irq/53-pciehp]
+root         141  0.0  0.0      0     0 ?        S    15:38   0:00 [irq/54-pciehp]
+root         142  0.0  0.0      0     0 ?        S    15:38   0:00 [irq/55-pciehp]
+root         143  0.0  0.0      0     0 ?        I<   15:38   0:00 [acpi_thermal_pm]
+root         145  0.0  0.0      0     0 ?        S    15:38   0:00 [scsi_eh_0]
+root         146  0.0  0.0      0     0 ?        I<   15:38   0:00 [scsi_tmf_0]
+root         147  0.0  0.0      0     0 ?        S    15:38   0:00 [scsi_eh_1]
+root         148  0.0  0.0      0     0 ?        I<   15:38   0:00 [scsi_tmf_1]
+root         150  0.0  0.0      0     0 ?        I<   15:38   0:00 [vfio-irqfd-clea]
+root         151  0.0  0.0      0     0 ?        I<   15:38   0:00 [kworker/2:1H-events_highpri]
+root         152  0.0  0.0      0     0 ?        I<   15:38   0:00 [kworker/3:1H-events_highpri]
+root         153  0.0  0.0      0     0 ?        I<   15:38   0:00 [mld]
+root         154  0.0  0.0      0     0 ?        I<   15:38   0:00 [ipv6_addrconf]
+root         166  0.0  0.0      0     0 ?        I<   15:38   0:00 [kstrp]
+root         169  0.0  0.0      0     0 ?        I<   15:38   0:00 [zswap-shrink]
+root         172  0.0  0.0      0     0 ?        I<   15:38   0:00 [kworker/u257:0]
+root         177  0.0  0.0      0     0 ?        I<   15:38   0:00 [charger_manager]
+root         225  0.0  0.0      0     0 ?        I<   15:38   0:00 [mpt_poll_0]
+root         226  0.0  0.0      0     0 ?        I<   15:38   0:00 [mpt/0]
+root         230  0.0  0.0      0     0 ?        S    15:38   0:00 [scsi_eh_2]
+root         231  0.0  0.0      0     0 ?        I<   15:38   0:00 [scsi_tmf_2]
+root         232  0.0  0.0      0     0 ?        S    15:38   0:00 [scsi_eh_3]
+root         233  0.0  0.0      0     0 ?        I<   15:38   0:00 [scsi_tmf_3]
+root         234  0.0  0.0      0     0 ?        S    15:38   0:00 [scsi_eh_4]
+root         235  0.0  0.0      0     0 ?        I<   15:38   0:00 [scsi_tmf_4]
+root         236  0.0  0.0      0     0 ?        S    15:38   0:00 [scsi_eh_5]
+root         237  0.0  0.0      0     0 ?        I<   15:38   0:00 [scsi_tmf_5]
+root         238  0.0  0.0      0     0 ?        S    15:38   0:00 [scsi_eh_6]
+root         239  0.0  0.0      0     0 ?        I<   15:38   0:00 [scsi_tmf_6]
+root         240  0.0  0.0      0     0 ?        S    15:38   0:00 [scsi_eh_7]
+root         241  0.0  0.0      0     0 ?        I<   15:38   0:00 [scsi_tmf_7]
+root         242  0.0  0.0      0     0 ?        S    15:38   0:00 [scsi_eh_8]
+root         243  0.0  0.0      0     0 ?        I<   15:38   0:00 [scsi_tmf_8]
+root         244  0.0  0.0      0     0 ?        S    15:38   0:00 [scsi_eh_9]
+root         245  0.0  0.0      0     0 ?        I<   15:38   0:00 [scsi_tmf_9]
+root         246  0.0  0.0      0     0 ?        S    15:38   0:00 [scsi_eh_10]
+root         247  0.0  0.0      0     0 ?        I<   15:38   0:00 [scsi_tmf_10]
+root         248  0.0  0.0      0     0 ?        S    15:38   0:00 [scsi_eh_11]
+root         249  0.0  0.0      0     0 ?        I<   15:38   0:00 [scsi_tmf_11]
+root         250  0.0  0.0      0     0 ?        S    15:38   0:00 [scsi_eh_12]
+root         251  0.0  0.0      0     0 ?        I<   15:38   0:00 [scsi_tmf_12]
+root         252  0.0  0.0      0     0 ?        S    15:38   0:00 [scsi_eh_13]
+root         253  0.0  0.0      0     0 ?        I<   15:38   0:00 [scsi_tmf_13]
+root         254  0.0  0.0      0     0 ?        S    15:38   0:00 [scsi_eh_14]
+root         255  0.0  0.0      0     0 ?        I<   15:38   0:00 [scsi_tmf_14]
+root         256  0.0  0.0      0     0 ?        S    15:38   0:00 [scsi_eh_15]
+root         257  0.0  0.0      0     0 ?        I<   15:38   0:00 [scsi_tmf_15]
+root         258  0.0  0.0      0     0 ?        S    15:38   0:00 [scsi_eh_16]
+root         259  0.0  0.0      0     0 ?        I<   15:38   0:00 [scsi_tmf_16]
+root         260  0.0  0.0      0     0 ?        S    15:38   0:00 [scsi_eh_17]
+root         261  0.0  0.0      0     0 ?        I<   15:38   0:00 [scsi_tmf_17]
+root         262  0.0  0.0      0     0 ?        S    15:38   0:00 [scsi_eh_18]
+root         263  0.0  0.0      0     0 ?        I<   15:38   0:00 [scsi_tmf_18]
+root         264  0.0  0.0      0     0 ?        S    15:38   0:00 [scsi_eh_19]
+root         265  0.0  0.0      0     0 ?        I<   15:38   0:00 [scsi_tmf_19]
+root         266  0.0  0.0      0     0 ?        S    15:38   0:00 [scsi_eh_20]
+root         267  0.0  0.0      0     0 ?        I<   15:38   0:00 [scsi_tmf_20]
+root         268  0.0  0.0      0     0 ?        S    15:38   0:00 [scsi_eh_21]
+root         269  0.0  0.0      0     0 ?        I<   15:38   0:00 [scsi_tmf_21]
+root         270  0.0  0.0      0     0 ?        S    15:38   0:00 [scsi_eh_22]
+root         271  0.0  0.0      0     0 ?        I<   15:38   0:00 [scsi_tmf_22]
+root         272  0.0  0.0      0     0 ?        S    15:38   0:00 [scsi_eh_23]
+root         273  0.0  0.0      0     0 ?        I<   15:38   0:00 [scsi_tmf_23]
+root         274  0.0  0.0      0     0 ?        S    15:38   0:00 [scsi_eh_24]
+root         275  0.0  0.0      0     0 ?        I<   15:38   0:00 [scsi_tmf_24]
+root         276  0.0  0.0      0     0 ?        S    15:38   0:00 [scsi_eh_25]
+root         277  0.0  0.0      0     0 ?        I<   15:38   0:00 [scsi_tmf_25]
+root         278  0.0  0.0      0     0 ?        S    15:38   0:00 [scsi_eh_26]
+root         279  0.0  0.0      0     0 ?        I<   15:38   0:00 [scsi_tmf_26]
+root         280  0.0  0.0      0     0 ?        S    15:38   0:00 [scsi_eh_27]
+root         281  0.0  0.0      0     0 ?        I<   15:38   0:00 [scsi_tmf_27]
+root         282  0.0  0.0      0     0 ?        S    15:38   0:00 [scsi_eh_28]
+root         283  0.0  0.0      0     0 ?        I<   15:38   0:00 [scsi_tmf_28]
+root         284  0.0  0.0      0     0 ?        S    15:38   0:00 [scsi_eh_29]
+root         285  0.0  0.0      0     0 ?        I<   15:38   0:00 [scsi_tmf_29]
+root         286  0.0  0.0      0     0 ?        S    15:38   0:00 [scsi_eh_30]
+root         287  0.0  0.0      0     0 ?        I<   15:38   0:00 [scsi_tmf_30]
+root         288  0.0  0.0      0     0 ?        S    15:38   0:00 [scsi_eh_31]
+root         289  0.0  0.0      0     0 ?        I<   15:38   0:00 [scsi_tmf_31]
+root         305  0.0  0.0      0     0 ?        R    15:38   0:00 [kworker/u256:21+events_unbound]
+root         316  0.0  0.0      0     0 ?        S    15:38   0:00 [scsi_eh_32]
+root         317  0.0  0.0      0     0 ?        I<   15:38   0:00 [scsi_tmf_32]
+root         326  0.0  0.0      0     0 ?        S    15:38   0:00 [md127_raid1]
+root         341  0.0  0.0      0     0 ?        I<   15:38   0:00 [raid5wq]
+root         373  0.0  0.0      0     0 ?        S    15:38   0:00 [jbd2/sda3-8]
+root         374  0.0  0.0      0     0 ?        I<   15:38   0:00 [ext4-rsv-conver]
+root         416  0.0  0.2  48296 19920 ?        S<s  15:38   0:01 /lib/systemd/systemd-journald
+root         446  0.0  0.0 152560   300 ?        Ssl  15:38   0:00 vmware-vmblock-fuse /run/vmblock-fuse -o rw,subtype=vmware-vmblock,default_permissions,allow_other,dev,sui
+root         461  0.0  0.0      0     0 ?        I<   15:38   0:00 [ttm_swap]
+root         462  0.0  0.0      0     0 ?        S    15:38   0:00 [irq/16-vmwgfx]
+root         463  0.0  0.0      0     0 ?        S    15:38   0:00 [card0-crtc0]
+root         464  0.0  0.0      0     0 ?        S    15:38   0:00 [card0-crtc1]
+root         465  0.0  0.0      0     0 ?        S    15:38   0:00 [card0-crtc2]
+root         466  0.0  0.0      0     0 ?        S    15:38   0:00 [card0-crtc3]
+root         467  0.0  0.0      0     0 ?        S    15:38   0:00 [card0-crtc4]
+root         468  0.0  0.0      0     0 ?        S    15:38   0:00 [card0-crtc5]
+root         469  0.0  0.0      0     0 ?        S    15:38   0:00 [card0-crtc6]
+root         470  0.0  0.0      0     0 ?        S    15:38   0:00 [card0-crtc7]
+root         481  0.5  0.1  27868  8120 ?        Ss   15:38   0:09 /lib/systemd/systemd-udevd
+root         760  0.0  0.0      0     0 ?        I<   15:38   0:00 [cryptd]
+root         762  0.0  0.0   3728  2500 ?        Ss   15:38   0:00 /sbin/mdadm --monitor --scan
+root         870  0.0  0.0      0     0 ?        I    15:38   0:00 [kworker/3:3-events_freezable]
+systemd+     872  0.1  0.0  14844  6076 ?        Ss   15:38   0:02 /lib/systemd/systemd-oomd
+systemd+     873  0.0  0.1  25284 13676 ?        Ss   15:38   0:01 /lib/systemd/systemd-resolved
+systemd+     874  0.0  0.0  89396  6648 ?        Ssl  15:38   0:00 /lib/systemd/systemd-timesyncd
+root         876  0.0  0.1  62388 12020 ?        Ss   15:38   0:00 /usr/bin/VGAuthService
+root         878  0.1  0.1 326208  9416 ?        Ssl  15:38   0:02 /usr/bin/vmtoolsd
+root         883  0.0  0.0 248800  7860 ?        Ssl  15:38   0:00 /usr/libexec/accounts-daemon
+root         884  0.0  0.0   2812  1144 ?        Ss   15:38   0:00 /usr/sbin/acpid
+avahi        889  0.0  0.0   7628  3656 ?        Ss   15:38   0:00 avahi-daemon: running [smirnovdenis-virtual-machine.local]
+root         890  0.0  0.0  18168  2964 ?        Ss   15:38   0:00 /usr/sbin/cron -f -P
+message+     891  0.1  0.0  11064  6620 ?        Ss   15:38   0:03 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         892  0.1  0.2 269956 19012 ?        Ssl  15:38   0:01 /usr/sbin/NetworkManager --no-daemon
+root         897  0.0  0.0  82832  3780 ?        Ssl  15:38   0:00 /usr/sbin/irqbalance --foreground
+root         898  0.0  0.2  49736 20688 ?        Ss   15:38   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         899  0.2  0.1 251608 11192 ?        Ssl  15:38   0:04 /usr/libexec/polkitd --no-debug
+root         904  0.0  0.0 248756  6824 ?        Ssl  15:38   0:00 /usr/libexec/power-profiles-daemon
+syslog       907  0.0  0.0 222400  6560 ?        Ssl  15:38   0:00 /usr/sbin/rsyslogd -n -iNONE
+root         923  0.0  0.0   2784  1644 ?        S<   15:38   0:00 /usr/sbin/atopacctd
+root         926  0.4  0.3 1393988 30096 ?       Ssl  15:38   0:07 /usr/lib/snapd/snapd
+root         928  0.0  0.0 245048  6788 ?        Ssl  15:38   0:00 /usr/libexec/switcheroo-control
+root         929  0.0  0.1  15520  8132 ?        Ss   15:38   0:00 /lib/systemd/systemd-logind
+root         932  0.0  0.1 393316 13892 ?        Ssl  15:38   0:00 /usr/libexec/udisks2/udisksd
+root         933  0.0  0.0  16492  5692 ?        Ss   15:38   0:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+root         942  0.0  0.2  19020 18996 ?        S<Ls 15:38   0:00 /usr/bin/atop -R -w /var/log/atop/atop_20240706 1800
+avahi        952  0.0  0.0   7440   332 ?        S    15:38   0:00 avahi-daemon: chroot helper
+root        1075  0.0  0.1  81672 14028 ?        Ss   15:38   0:00 /usr/sbin/cupsd -l
+root        1084  0.0  0.2 126824 23668 ?        Ssl  15:38   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root        1097  0.0  0.1 243220 12144 ?        Ssl  15:38   0:00 /usr/sbin/ModemManager
+root        1131  0.4  0.5 1422380 48100 ?       Ssl  15:38   0:07 /usr/bin/containerd
+root        1147  0.0  0.1 250004  9208 ?        Ssl  15:38   0:00 /usr/sbin/gdm3
+root        1148  0.0  0.1  15440  9252 ?        Ss   15:38   0:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+lp          1160  0.0  0.0  16284  5392 ?        S    15:38   0:00 /usr/lib/cups/notifier/dbus dbus://
+root        1167  0.0  0.1 172632 11420 ?        Ssl  15:38   0:00 /usr/sbin/cups-browsed
+kernoops    1209  0.0  0.0  13100   456 ?        Ss   15:39   0:00 /usr/sbin/kerneloops --test
+kernoops    1213  0.0  0.0  13100   456 ?        Ss   15:39   0:00 /usr/sbin/kerneloops
+root        1261  0.0  0.2 196808 18112 ?        Ss   15:39   0:00 /usr/sbin/apache2 -k start
+www-data    1305  0.0  0.1 197312  8332 ?        S    15:39   0:00 /usr/sbin/apache2 -k start
+www-data    1306  0.0  0.1 197312  8332 ?        S    15:39   0:00 /usr/sbin/apache2 -k start
+www-data    1307  0.0  0.1 197312  8332 ?        S    15:39   0:00 /usr/sbin/apache2 -k start
+www-data    1308  0.0  0.1 197312  8332 ?        S    15:39   0:00 /usr/sbin/apache2 -k start
+www-data    1309  0.0  0.1 197312  8332 ?        S    15:39   0:00 /usr/sbin/apache2 -k start
+rtkit       1380  0.0  0.0 154000  1568 ?        SNsl 15:39   0:00 /usr/libexec/rtkit-daemon
+root        1425  0.4  0.9 2037560 74240 ?       Ssl  15:39   0:08 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root        1435  0.0  0.0      0     0 ?        I    15:39   0:00 [kworker/2:3-events]
+root        1510  0.0  0.1 250904  8648 ?        Ssl  15:39   0:00 /usr/libexec/upowerd
+root        1864  0.0  0.0 1148728 3012 ?        Sl   15:39   0:00 /usr/bin/docker-proxy -proto tcp -host-ip 0.0.0.0 -host-port 50000 -container-ip 172.18.0.2 -container-por
+root        1874  0.0  0.0 1222204 3408 ?        Sl   15:39   0:00 /usr/bin/docker-proxy -proto tcp -host-ip :: -host-port 50000 -container-ip 172.18.0.2 -container-port 500
+root        1888  0.0  0.0 1148728 3184 ?        Sl   15:39   0:00 /usr/bin/docker-proxy -proto tcp -host-ip 0.0.0.0 -host-port 8080 -container-ip 172.18.0.2 -container-port
+root        1894  0.0  0.0 1148728 3264 ?        Sl   15:39   0:00 /usr/bin/docker-proxy -proto tcp -host-ip :: -host-port 8080 -container-ip 172.18.0.2 -container-port 8080
+root        1980  0.0  0.1 712200 10108 ?        Sl   15:39   0:00 /usr/bin/containerd-shim-runc-v2 -namespace moby -id f59dc398b9bffe1335e5d4bfc95b9790b2c7aa373fee05653f671
+root        1983  0.0  0.1 712200  9212 ?        Sl   15:39   0:00 /usr/bin/containerd-shim-runc-v2 -namespace moby -id 9e0896a7e19c11a782a77c6f991bc180c8f5611e75e631388c6cc
+smirnov+    2064  0.0  0.0   2316   556 ?        Ss   15:39   0:00 /usr/bin/tini -- /usr/local/bin/jenkins.sh
+root        2065  0.0  0.0    216     4 ?        Ss   15:39   0:00 /usr/bin/dumb-init /entrypoint run --user=gitlab-runner --working-directory=/home/gitlab-runner
+root        2204  0.2  0.4 748984 38764 ?        Ssl  15:39   0:05 gitlab-runner run --user=gitlab-runner --working-directory=/home/gitlab-runner
+smirnov+    2212  2.2  5.2 5720784 423320 ?      Sl   15:39   0:40 java -Duser.home=/var/jenkins_home -Djenkins.model.Jenkins.slaveAgentPort=50000 -Dhudson.lifecycle=hudson.
+root        2268  0.0  0.2 306984 21124 ?        Ssl  15:39   0:00 /usr/libexec/packagekitd
+root        2483  0.0  0.1 179392 11096 ?        Sl   15:39   0:00 gdm-session-worker [pam/gdm-password]
+root        2511  0.0  0.0   2772   968 ?        S    15:39   0:00 bpfilter_umh
+smirnov+    2536  0.1  0.1  18088 10856 ?        Ss   15:39   0:03 /lib/systemd/systemd --user
+smirnov+    2537  0.0  0.0 170344  4440 ?        S    15:39   0:00 (sd-pam)
+smirnov+    2545  0.0  0.0  48236  6668 ?        S<sl 15:39   0:00 /usr/bin/pipewire
+smirnov+    2546  0.0  0.0  32260  6680 ?        Ssl  15:39   0:00 /usr/bin/pipewire-media-session
+smirnov+    2547  0.0  0.3 1508172 29988 ?       S<sl 15:39   0:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+smirnov+    2548  0.0  0.1  76140 11504 ?        Ss   15:39   0:01 /snap/snapd-desktop-integration/49/usr/bin/snapd-desktop-integration
+smirnov+    2556  0.0  0.0   9592  5884 ?        Ss   15:39   0:01 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+smirnov+    2567  0.0  0.1 249412  8432 ?        Ssl  15:39   0:00 /usr/libexec/gvfsd
+smirnov+    2573  0.0  0.0 380904  6480 ?        Sl   15:39   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+smirnov+    2580  0.0  0.0 249568  7508 ?        Sl   15:39   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+smirnov+    2588  0.0  0.0 545572  7472 ?        Ssl  15:39   0:00 /usr/libexec/xdg-document-portal
+smirnov+    2592  0.0  0.0 244820  5568 ?        Ssl  15:39   0:00 /usr/libexec/xdg-permission-store
+root        2600  0.0  0.0   2792  1056 ?        Ss   15:39   0:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+smirnov+    2604  0.0  0.0 171056  6136 tty2     Ssl+ 15:39   0:00 /usr/libexec/gdm-wayland-session env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --session=ubun
+smirnov+    2609  0.0  0.1 231700 15428 tty2     Sl+  15:39   0:00 /usr/libexec/gnome-session-binary --session=ubuntu
+smirnov+    2636  0.1  0.4 717952 33076 ?        SNsl 15:39   0:02 /usr/libexec/tracker-miner-fs-3
+smirnov+    2680  0.0  0.0 100576  5184 ?        Ssl  15:39   0:00 /usr/libexec/gnome-session-ctl --monitor
+smirnov+    2692  0.0  0.2 601588 17996 ?        Ssl  15:39   0:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+smirnov+    2708  0.0  0.0 309636  7896 ?        Sl   15:39   0:00 /usr/libexec/at-spi-bus-launcher --launch-immediately
+smirnov+    2710  0.8  3.1 4272968 255736 ?      Ssl  15:39   0:15 /usr/bin/gnome-shell
+smirnov+    2717  0.0  0.0   8448  4596 ?        S    15:39   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address
+smirnov+    2741  0.0  0.2 582904 18176 ?        Sl   15:39   0:00 /usr/libexec/gnome-shell-calendar-server
+smirnov+    2743  0.2  0.1 398464 10356 ?        Ssl  15:39   0:05 /usr/libexec/gvfs-udisks2-volume-monitor
+smirnov+    2750  0.0  0.0 245300  6704 ?        Ssl  15:39   0:00 /usr/libexec/gvfs-goa-volume-monitor
+smirnov+    2755  0.0  0.4 573260 39636 ?        Sl   15:39   0:00 /usr/libexec/goa-daemon
+smirnov+    2763  0.0  0.1 347068 14780 ?        Sl   15:39   0:00 /usr/libexec/goa-identity-service
+smirnov+    2769  0.0  0.0 156972  6104 ?        Ssl  15:39   0:00 /usr/libexec/dconf-service
+smirnov+    2771  0.0  0.1 323868  8364 ?        Ssl  15:39   0:00 /usr/libexec/gvfs-afc-volume-monitor
+smirnov+    2778  0.0  0.0 246084  7188 ?        Ssl  15:39   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+smirnov+    2782  0.0  0.0 245128  6900 ?        Ssl  15:39   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+smirnov+    2797  0.0  0.1 323532  8728 ?        Sl   15:39   0:00 /usr/libexec/gvfsd-trash --spawner :1.3 /org/gtk/gvfs/exec_spaw/0
+smirnov+    2805  0.0  0.3 400916 25980 ?        Ssl  15:39   0:00 /usr/libexec/evolution-source-registry
+smirnov+    2810  0.0  0.3 2743232 27860 ?       Sl   15:39   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+smirnov+    2812  0.0  0.0 162696  7320 ?        Sl   15:39   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+smirnov+    2825  0.0  0.0   2888  1000 ?        Ss   15:39   0:00 sh -c /usr/bin/ibus-daemon --panel disable $([ "$XDG_SESSION_TYPE" = "x11" ] && echo "--xim")
+smirnov+    2827  0.0  0.1 397232 11888 ?        Sl   15:39   0:00 /usr/bin/ibus-daemon --panel disable
+smirnov+    2830  0.0  0.0 319092  6980 ?        Ssl  15:39   0:00 /usr/libexec/gsd-a11y-settings
+smirnov+    2836  0.0  0.3 533440 25412 ?        Ssl  15:39   0:00 /usr/libexec/gsd-color
+smirnov+    2839  0.0  0.2 384128 16680 ?        Ssl  15:39   0:00 /usr/libexec/gsd-datetime
+smirnov+    2842  0.0  0.0 320684  7772 ?        Ssl  15:39   0:01 /usr/libexec/gsd-housekeeping
+smirnov+    2843  0.0  0.2 349244 22192 ?        Ssl  15:39   0:00 /usr/libexec/gsd-keyboard
+smirnov+    2847  0.0  0.3 725388 26612 ?        Ssl  15:39   0:00 /usr/libexec/gsd-media-keys
+smirnov+    2850  0.0  0.3 532940 25456 ?        Ssl  15:39   0:00 /usr/libexec/gsd-power
+smirnov+    2852  0.0  0.1 258516 11720 ?        Ssl  15:39   0:00 /usr/libexec/gsd-print-notifications
+smirnov+    2854  0.0  0.0 466524  6788 ?        Ssl  15:39   0:00 /usr/libexec/gsd-rfkill
+smirnov+    2856  0.0  0.0 244956  6392 ?        Ssl  15:39   0:00 /usr/libexec/gsd-screensaver-proxy
+smirnov+    2857  0.0  0.1 474624 11048 ?        Ssl  15:39   0:00 /usr/libexec/gsd-sharing
+smirnov+    2858  0.0  0.1 468436  8328 ?        Ssl  15:39   0:00 /usr/libexec/gsd-smartcard
+smirnov+    2861  0.0  0.1 328008  9204 ?        Ssl  15:39   0:00 /usr/libexec/gsd-sound
+smirnov+    2869  0.0  0.2 423592 22600 ?        Ssl  15:39   0:00 /usr/libexec/gsd-wacom
+smirnov+    2896  0.0  0.0 245980  7572 ?        Sl   15:39   0:00 /usr/libexec/ibus-dconf
+smirnov+    2898  0.0  0.8 813696 65988 ?        Sl   15:39   0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+smirnov+    2902  0.1  0.4 296896 38196 ?        Sl   15:39   0:02 /usr/bin/vmtoolsd -n vmusr --blockFd 3 --uinputFd 4
+smirnov+    2903  0.1  0.3 355904 28280 ?        Sl   15:39   0:02 /usr/libexec/ibus-extension-gtk3
+smirnov+    2917  0.0  0.0 232280  6808 ?        Sl   15:39   0:00 /usr/libexec/gsd-disk-utility-notify
+smirnov+    2921  0.0  0.0 245928  6808 ?        Sl   15:39   0:00 /usr/libexec/ibus-portal
+smirnov+    2968  0.0  0.1 351024 13948 ?        Sl   15:39   0:00 /usr/libexec/gsd-printer
+smirnov+    2995  0.0  0.0 171688  6616 ?        Ssl  15:39   0:00 /usr/libexec/gvfsd-metadata
+smirnov+    3017  0.0  0.0 172148  7500 ?        Sl   15:39   0:00 /usr/libexec/ibus-engine-simple
+smirnov+    3050  0.0  0.8 210516 69152 ?        S    15:39   0:00 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.GCKHQ2 -l
+smirnov+    3051  0.0  0.3 849124 30736 ?        Ssl  15:39   0:00 /usr/libexec/evolution-calendar-factory
+smirnov+    3075  0.1  0.8 3008156 65364 ?       Sl   15:39   0:01 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/ding.js -E -P /usr/share/gnome-shell/extensions/
+smirnov+    3096  0.0  0.8 532324 68236 ?        Ssl  15:39   0:00 /usr/libexec/gsd-xsettings
+smirnov+    3116  0.0  0.3 754624 29288 ?        Ssl  15:39   0:00 /usr/libexec/evolution-addressbook-factory
+colord      3216  0.0  0.1 253972 13260 ?        Ssl  15:40   0:00 /usr/libexec/colord
+smirnov+    3237  0.0  0.1 632464 14028 ?        Ssl  15:40   0:00 /usr/libexec/xdg-desktop-portal
+smirnov+    3255  0.0  0.3 2677792 27712 ?       Sl   15:40   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.ScreenSaver
+smirnov+    3282  0.0  0.3 606156 29364 ?        Ssl  15:40   0:00 /usr/libexec/xdg-desktop-portal-gnome
+smirnov+    3352  0.1  0.7 832472 59560 ?        Ssl  15:40   0:01 /usr/libexec/gnome-terminal-server
+smirnov+    3402  0.0  0.3 202848 25280 ?        Sl   15:40   0:00 /usr/libexec/ibus-x11
+smirnov+    3415  0.0  0.2 308808 22156 ?        Sl   15:40   0:00 /snap/snapd-desktop-integration/49/usr/bin/snapd-desktop-integration
+smirnov+    3419  0.0  0.0  20196  5900 pts/0    Ss+  15:40   0:00 bash
+smirnov+    3436  0.0  0.3 352560 25024 ?        Ssl  15:40   0:00 /usr/libexec/xdg-desktop-portal-gtk
+root        3524  0.0  0.1  17436 11176 ?        Ss   15:40   0:00 sshd: smirnovdenis [priv]
+smirnov+    3637  0.0  0.1  18240  9132 ?        S    15:40   0:01 sshd: smirnovdenis@notty
+smirnov+    3641  0.0  0.0   7896  5284 ?        Ss   15:40   0:00 /usr/lib/openssh/sftp-server
+smirnov+    4231  0.0  0.3 428440 29752 ?        Sl   15:40   0:00 update-notifier
+root        5628  0.0  0.1  17440 10976 ?        Ss   15:42   0:00 sshd: smirnovdenis [priv]
+smirnov+    5664  0.0  0.0  17572  8036 ?        R    15:42   0:00 sshd: smirnovdenis@pts/1
+smirnov+    5665  0.0  0.0  20288  6080 pts/1    Ss   15:42   0:00 -bash
+root        6667  0.0  0.0      0     0 ?        I    15:43   0:00 [kworker/1:4-events]
+root        7643  0.0  0.0      0     0 ?        I    15:44   0:00 [kworker/2:0-cgroup_destroy]
+root        8430  0.0  0.0      0     0 ?        I    15:45   0:00 [kworker/u256:0-flush-8:0]
+root        8823  0.0  0.0      0     0 ?        I    15:46   0:00 [kworker/0:2-rcu_par_gp]
+root       12587  0.0  0.0      0     0 ?        R    15:48   0:00 [kworker/u256:1-events_unbound]
+root       14957  0.0  0.0      0     0 ?        I    15:51   0:00 [kworker/3:2-cgroup_destroy]
+root       15547  0.0  0.0      0     0 ?        I    15:52   0:00 [kworker/1:0-cgroup_destroy]
+root       15796  0.0  0.1 712200 10304 ?        Sl   15:52   0:00 /usr/bin/containerd-shim-runc-v2 -namespace moby -id 3dceb3dbee8a695fa7604c4e941fb68409aed883c94f1db927cc3
+root       15820  0.0  0.0    996     4 ?        Ss   15:52   0:00 docker-init -- dockerd --host=unix:///var/run/docker.sock --host=tcp://0.0.0.0:2376 --tlsverify --tlscacer
+root       15914  0.0  0.6 1418008 52932 ?       Sl   15:52   0:00 dockerd --host=unix:///var/run/docker.sock --host=tcp://0.0.0.0:2376 --tlsverify --tlscacert /certs/server
+root       15923  0.5  0.4 1333128 34312 ?       Ssl  15:52   0:05 containerd --config /var/run/docker/containerd/containerd.toml --log-level info
+root       16254  0.0  0.0      0     0 ?        I    16:09   0:00 [kworker/0:0-events]
+root       16302  0.0  0.0      0     0 ?        I    16:09   0:00 [kworker/2:1]
+root       16303  0.0  0.0      0     0 ?        I    16:09   0:00 [kworker/1:1-cgroup_destroy]
+root       16304  0.0  0.0      0     0 ?        I    16:09   0:00 [kworker/u256:2-flush-8:0]
+smirnov+   16310  0.0  0.0  21324  3536 pts/1    R+   16:10   0:00 ps aux
+[1]+  Exit 143                nohup java -jar newMock-0.0.1-SNAPSHOT.jar
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$ nohup java -jar newMock-0.0.1-SNAPSHOT.jar &
+[1] 16311
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$ nohup: ignoring input and appending output to 'nohup.out'
+^C
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$ nohup java -jar newMock-0.0.1-SNAPSHOT.jar &
+[2] 16352
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$ nohup: ignoring input and appending output to 'nohup.out'
+
+[2]+  Exit 1                  nohup java -jar newMock-0.0.1-SNAPSHOT.jar
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$ nohup java -jar newMock-0.0.1-SNAPSHOT.jar &
+[2] 16383
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$ nohup: ignoring input and appending output to 'nohup.out'
+ps aux | grep 16383
+smirnov+   16415  0.0  0.0  17864  2464 pts/1    S+   16:11   0:00 grep --color=auto 16383
+[2]+  Exit 1                  nohup java -jar newMock-0.0.1-SNAPSHOT.jar
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$ nohup java -jar newMock-0.0.1-SNAPSHOT.jar &
+[2] 16416
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$ nohup: ignoring input and appending output to 'nohup.out'
+ps
+    PID TTY          TIME CMD
+   5665 pts/1    00:00:00 bash
+  16311 pts/1    00:00:10 java
+  16416 pts/1    00:00:09 java
+  16445 pts/1    00:00:00 ps
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$ ps
+    PID TTY          TIME CMD
+   5665 pts/1    00:00:00 bash
+  16311 pts/1    00:00:10 java
+  16448 pts/1    00:00:00 ps
+[2]+  Exit 1                  nohup java -jar newMock-0.0.1-SNAPSHOT.jar
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$ ps
+    PID TTY          TIME CMD
+   5665 pts/1    00:00:00 bash
+  16311 pts/1    00:00:10 java
+  16449 pts/1    00:00:00 ps
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$ ps
+    PID TTY          TIME CMD
+   5665 pts/1    00:00:00 bash
+  16311 pts/1    00:00:10 java
+  16450 pts/1    00:00:00 ps
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$ ps
+    PID TTY          TIME CMD
+   5665 pts/1    00:00:00 bash
+  16311 pts/1    00:00:10 java
+  16451 pts/1    00:00:00 ps
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$ ps
+    PID TTY          TIME CMD
+   5665 pts/1    00:00:00 bash
+  16311 pts/1    00:00:10 java
+  16452 pts/1    00:00:00 ps
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$ ps aux | grep 16311
+smirnov+   16311 10.6  2.1 5761280 172956 pts/1  Sl   16:10   0:10 java -jar newMock-0.0.1-SNAPSHOT.jar
+smirnov+   16454  0.0  0.0  17864  2460 pts/1    S+   16:11   0:00 grep --color=auto 16311
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$ kill 16311
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$ ps aux | grep 16311
+smirnov+   16459  0.0  0.0  17864  2440 pts/1    S+   16:12   0:00 grep --color=auto 16311
+[1]+  Exit 143                nohup java -jar newMock-0.0.1-SNAPSHOT.jar
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$ ps
+    PID TTY          TIME CMD
+   5665 pts/1    00:00:00 bash
+  16460 pts/1    00:00:00 ps
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$ nohup java -jar newMock-0.0.1-SNAPSHOT.jar --server.port=8081 &
+[1] 16461
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$ nohup: ignoring input and appending output to 'nohup.out'
+
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$ ps
+    PID TTY          TIME CMD
+   5665 pts/1    00:00:00 bash
+  16461 pts/1    00:00:08 java
+  16502 pts/1    00:00:00 ps
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$ nohup java -jar newMock-0.0.1-SNAPSHOT.jar --server.port=8082 &
+[2] 16504
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$ nohup: ignoring input and appending output to 'nohup.out'
+
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$ nohup java -jar newMock-0.0.1-SNAPSHOT.jar --server.port=8083 &
+[3] 16545
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$ nohup: ignoring input and appending output to 'nohup.out'
+
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$ ps
+    PID TTY          TIME CMD
+   5665 pts/1    00:00:00 bash
+  16461 pts/1    00:00:09 java
+  16504 pts/1    00:00:10 java
+  16545 pts/1    00:00:12 java
+  16589 pts/1    00:00:00 ps
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$ kill 16461 16504 16545
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$ ps
+    PID TTY          TIME CMD
+   5665 pts/1    00:00:00 bash
+  16599 pts/1    00:00:00 ps
+[1]   Exit 143                nohup java -jar newMock-0.0.1-SNAPSHOT.jar --server.port=8081
+[2]-  Exit 143                nohup java -jar newMock-0.0.1-SNAPSHOT.jar --server.port=8082
+[3]+  Exit 143                nohup java -jar newMock-0.0.1-SNAPSHOT.jar --server.port=8083
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$ ps
+    PID TTY          TIME CMD
+   5665 pts/1    00:00:00 bash
+  16600 pts/1    00:00:00 ps
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$ nohup java -jar newMock-0.0.1-SNAPSHOT.jar --server.port=8083 -Xms1g -Xmx2g &
+[1] 16606
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$ nohup: ignoring input and appending output to 'nohup.out'
+
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$ ps
+    PID TTY          TIME CMD
+   5665 pts/1    00:00:00 bash
+  16606 pts/1    00:00:10 java
+  16647 pts/1    00:00:00 ps
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$ kill 16606
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$ nohup java -jar newMock-0.0.1-SNAPSHOT.jar --server.port=8888 -Xms1g -Xmx1g > out8888.log &
+[2] 16660
+[1]   Exit 143                nohup java -jar newMock-0.0.1-SNAPSHOT.jar --server.port=8083 -Xms1g -Xmx2g
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$ nohup: ignoring input and redirecting stderr to stdout
+ps
+    PID TTY          TIME CMD
+   5665 pts/1    00:00:00 bash
+  16660 pts/1    00:00:08 java
+  16701 pts/1    00:00:00 ps
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$ nohup java -jar newMock-0.0.1-SNAPSHOT.jar --server.port=8889 -Xms1g -Xmx1g > out8889.log &
+[3] 16704
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$ nohup: ignoring input and redirecting stderr to stdout
+
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$ nohup java -jar newMock-0.0.1-SNAPSHOT.jar --server.port=8887 -Xms1g -Xmx1g > out8887.log &
+[4] 16745
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$ nohup: ignoring input and redirecting stderr to stdout
+
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$ cat out8887.log
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.1)
+
+2024-07-06T16:20:40.072+03:00  INFO 16745 --- [newMock] [           main] com.example.newMock.NewMockApplication   : Starting NewMockApplication v0.0.1-SNAPSHOT using Java 1-0.0.1-SNAPSHOT.jar started by smirnovdenis in /home/smirnovdenis/newMock/target)
+2024-07-06T16:20:40.075+03:00  INFO 16745 --- [newMock] [           main] com.example.newMock.NewMockApplication   : No active profile set, falling back to 1 default profile
+2024-07-06T16:20:41.441+03:00  INFO 16745 --- [newMock] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8887 (http)
+2024-07-06T16:20:41.457+03:00  INFO 16745 --- [newMock] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-06T16:20:41.458+03:00  INFO 16745 --- [newMock] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-06T16:20:41.504+03:00  INFO 16745 --- [newMock] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-06T16:20:41.506+03:00  INFO 16745 --- [newMock] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in
+2024-07-06T16:20:42.041+03:00  INFO 16745 --- [newMock] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8887 (http) with context path '/'
+2024-07-06T16:20:42.059+03:00  INFO 16745 --- [newMock] [           main] com.example.newMock.NewMockApplication   : Started NewMockApplication in 2.575 seconds (process run
+2024-07-06T16:20:44.093+03:00  INFO 16745 --- [newMock] [nio-8887-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet
+2024-07-06T16:20:44.094+03:00  INFO 16745 --- [newMock] [nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-06T16:20:44.095+03:00  INFO 16745 --- [newMock] [nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-07-06T16:20:44.216+03:00 ERROR 16745 --- [newMock] [nio-8887-exec-1] c.e.newMock.Controller.MainController    : *********** RequestDTO *********** {
+  "rqUID" : "58dgtf565j8547f64ke7",
+  "clientId" : "3050000000000000000",
+  "account" : "30500000000000000001",
+  "openDate" : "2020-01-01",
+  "closeDate" : "2025-01-01"
+}
+2024-07-06T16:20:44.234+03:00 ERROR 16745 --- [newMock] [nio-8887-exec-1] c.e.newMock.Controller.MainController    : *********** ResponseDTO *********** {
+  "rqUID" : "58dgtf565j8547f64ke7",
+  "clientId" : "3050000000000000000",
+  "account" : "30500000000000000001",
+  "currency" : "RUB",
+  "balance" : 6893.00,
+  "maxLimit" : 10000.00
+}
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$ kill ps | grep java
+-bash: kill: ps: arguments must be process or job IDs
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$ ps
+    PID TTY          TIME CMD
+   5665 pts/1    00:00:00 bash
+  16660 pts/1    00:00:10 java
+  16704 pts/1    00:00:10 java
+  16745 pts/1    00:00:11 java
+  16797 pts/1    00:00:00 ps
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$ ps | grep java
+  16660 pts/1    00:00:10 java
+  16704 pts/1    00:00:10 java
+  16745 pts/1    00:00:11 java
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$ [200~ nohup java -jar newMock-0.0.1-SNAPSHOT.jar --server.port=8083 -Xms1g -Xmx2g
+[200~: command not found
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$ ~ nohup java -jar newMock-0.0.1-SNAPSHOT.jar --server.port=8083 -Xms1g -X
+-bash: /home/smirnovdenis: Is a directory
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target                                                                                                                   smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$ ps | grep java
+  16660 pts/1    00:00:10 java
+  16704 pts/1    00:00:11 java
+  16745 pts/1    00:00:11 java
+smirnovdenis@smirnovdenis-virtual-machine:~/newMock/target$
