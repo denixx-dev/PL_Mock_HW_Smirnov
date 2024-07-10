@@ -3,14 +3,11 @@ package com.example.newMock.Controller;
 import com.example.newMock.Model.RequestDTO;
 import com.example.newMock.Model.ResponseDTO;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import lombok.extern.slf4j.Slf4j;
-import org.apache.coyote.Response;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -54,16 +51,11 @@ public class MainController {
 
             ResponseDTO responseDTO = new ResponseDTO();
 
-//            BigDecimal max = new BigDecimal(maxLimit + ".00");
-//            BigDecimal randFromDouble = new BigDecimal(Math.random());
-//            BigDecimal actualRandomBalance = randFromDouble.divide(max,BigDecimal.ROUND_DOWN);
-
 
             responseDTO.setRqUID(rqUID);
             responseDTO.setClientId(clientId);
             responseDTO.setAccount(account);
             responseDTO.setCurrency(currency);
-//            responseDTO.setBalance(new BigDecimal("234234.00"));
             responseDTO.setBalance(new BigDecimal(getRandomBigDecimal(maxLimit) + ".00"));
             responseDTO.setMaxLimit(maxLimit);
 

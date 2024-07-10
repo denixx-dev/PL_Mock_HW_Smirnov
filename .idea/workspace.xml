@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98d76f9e-d6f8-4ce0-b2d9-712bd9010ad6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/putty_out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/newMock/Controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/newMock/Controller/MainController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +39,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JAR Application.newMock-0.0.1-SNAPSHOT.jar">
+  <component name="RunManager" selected="Application.NewMockApplication">
     <configuration name="NewMockApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.newMock.NewMockApplication" />
       <module name="newMock" />
@@ -58,8 +59,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JAR Application.newMock-0.0.1-SNAPSHOT.jar" />
         <item itemvalue="Application.NewMockApplication" />
+        <item itemvalue="JAR Application.newMock-0.0.1-SNAPSHOT.jar" />
       </list>
     </recent_temporary>
   </component>
